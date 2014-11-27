@@ -6,8 +6,9 @@ BroadApi
 
 Requirements
 --------------------
-* PHP 5.3.0 or greater.
+* PHP >= 5.3.0
 * MySQL
+* Transmission >= 2.52
 
 Installation
 --------------------
