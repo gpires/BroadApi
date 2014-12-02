@@ -6,7 +6,7 @@ BroadApi
 
 Requirements
 --------------------
-* PHP >= 5.3.0
+* PHP >= 5.3.0 & php5-curl
 * MySQL
 * Transmission >= 2.52
 
@@ -24,6 +24,7 @@ Implemented Features
 --------------------
 * Torrent added automaticaly using database list and Broadcasthe.net API
 * View Transmission stats including current upload and download speed.
+* Search for series/episodes
 * Starting torrent by URL
 * Manage Series
 * Logs viewer
