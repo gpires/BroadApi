@@ -50,7 +50,8 @@ function checkIfDownload($torrent, $serie_params, $serie_episodes) {
 
 function getSerieParams($serie_name) {
 	global $con;
-
+	
+	$serie_name = mysql_escape_string($serie_name); // Avoid Strange names 
 	$serie_search = mysqli_query($con, "SELECT * FROM series WHERE name='$serie_name'");
 	return mysqli_fetch_assoc($serie_search);
 }
